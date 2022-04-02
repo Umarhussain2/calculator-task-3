@@ -1,0 +1,68 @@
+#grandpa{
+    background-color: aqua;
+    width: 70%;
+    height: 120%;
+}
+
+#head{
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width:60%;
+    top: 30px;
+    left: 200px;
+    font-size: x-large;
+}
+
+#parent{
+    background-color: grey;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+.child{
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+#div1{
+    grid-column: 1/5;
+}
+
+#div5{
+    background-color: orangered;
+}
+
+#div9{
+    background-color: orangered;
+}
+
+#div13{
+    background-color: orangered;
+}
+
+#div14{
+    background-color: orangered;
+}
+
+#div16{
+    background-color: orangered;
+}
+
+#div17{
+    background-color: orangered;
+}
+
+#div1{
+    background-color: blueviolet;
+}
